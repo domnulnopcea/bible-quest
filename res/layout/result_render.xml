@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_marginBottom="50dip" android:layout_height="wrap_content">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/layout_results" android:orientation="vertical"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_centerInParent="true" android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true">
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/layout_results_table" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:stretchColumns="3">
+			</TableLayout>
+		</LinearLayout>
+	</ScrollView>
+	<RelativeLayout android:layout_marginTop="-50dip"
+		android:gravity="bottom" android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<Button android:id="@+id/go_back" android:gravity="center_vertical|center_horizontal"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true" android:text="&lt;&lt; Go back"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			style="@style/ButtonText" android:background="@drawable/btn_blue_glossy" />
+	</RelativeLayout>
+</LinearLayout>

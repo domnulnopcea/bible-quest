@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_marginBottom="50dip" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/layout_results"
+			android:layout_height="fill_parent" android:orientation="vertical"
+			android:layout_width="match_parent">
+			<TextView android:background="@drawable/box" android:id="@+id/head_review_game"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="Review game" android:textColor="@color/black" />
+
+			<TableLayout android:id="@+id/layout_review_table"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			</TableLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

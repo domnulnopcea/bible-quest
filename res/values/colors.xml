@@ -1,0 +1,7 @@
+<resources>
+	<color name="white">#ffffffff</color>
+	<color name="grey">#CCCCCC</color>
+	<color name="black">#000000</color>
+	<color name="red">#DFDEDC</color>
+	<color name="linie">#FF909090</color>
+</resources>
